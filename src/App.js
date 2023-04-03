@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import SearchEngine from "./SearchEngine"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <h1>Weather App</h1>
+<SearchEngine />
+      </div>
+      <footer>
+        This project was coded by Aneta Rybacka with{" "}
+        <a href="https://react.dev/" target="_blank">
+          React
+        </a>{" "}
+        and is{" "}
+        <a href="https://github.com/an-rybacka/weather-react" target="_blank">
+          open-sourced on GitHub
+        </a>{" "}
+      </footer>
     </div>
   );
 }
