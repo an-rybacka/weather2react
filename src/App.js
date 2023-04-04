@@ -5,11 +5,12 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
+    <div className="App-container">
+      <div className="weather-container">
         <h1>Weather App</h1>
         <SearchEngine />
       </div>
+
       <footer>
         This project was coded by Aneta Rybacka with{" "}
         <a href="https://react.dev/" target="_blank" rel="noreferrer">

@@ -1,0 +1,16 @@
+form {
+  margin: 20px;
+  display: block;
+}
+
+#search-input {
+width: 80%;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.current-location {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
