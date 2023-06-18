@@ -3,18 +3,16 @@ form {
   display: block;
 }
 
-#search-input {
-  width: 80%;
+.form-control {
+  width: 70%;
   border-radius: 5px;
   border-width: 1px;
+  background-color: orange;
+  font-size: 5px;
 }
 
 .current-location {
   display: block;
   margin: 0 auto;
   margin-top: 10px;
-}
-
-.main-card {
-  background-color: orange;
 }
