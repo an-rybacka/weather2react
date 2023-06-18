@@ -1,4 +1,3 @@
-import "./App.css";
 import "./SearchEngine.css"
 import "bootstrap/dist/css/bootstrap.css";
 

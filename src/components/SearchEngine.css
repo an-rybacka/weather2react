@@ -4,7 +4,7 @@ form {
 }
 
 #search-input {
-width: 80%;
+  width: 80%;
   border-radius: 5px;
   border-width: 1px;
 }
@@ -13,4 +13,8 @@ width: 80%;
   display: block;
   margin: 0 auto;
   margin-top: 10px;
+}
+
+.main-card {
+  background-color: orange;
 }

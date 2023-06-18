@@ -1,7 +1,7 @@
-import './App.css';
-import SearchEngine from "./SearchEngine";
+import "./App.css";
+import SearchEngine from "./components/SearchEngine";
 import "bootstrap/dist/css/bootstrap.css";
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,20 +11,7 @@ function App() {
         <SearchEngine />
       </div>
 
-      <footer>
-        This project was coded by Aneta Rybacka with{" "}
-        <a href="https://react.dev/" target="_blank" rel="noreferrer">
-          React
-        </a>{" "}
-        and is{" "}
-        <a
-          href="https://github.com/an-rybacka/weather-react"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open-sourced on GitHub
-        </a>{" "}
-      </footer>
+      <Footer />
     </div>
   );
 }
